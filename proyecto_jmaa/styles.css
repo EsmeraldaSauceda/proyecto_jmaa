@@ -1,0 +1,92 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.centrar {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: auto;
+    width: max-content;
+}
+
+.indices{
+    display: inline-block;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+button {
+    width: 155px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: black;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 30px;
+}
+
+.icono{
+padding-bottom: 35px;
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+}
+
+#category{
+    display: flex;
+    justify-content: center;
+}
+
+.envio{
+    margin-top: 47px;
+}
+
+.texto{
+    display: grid;
+    align-items: center;
+}
+
+input{
+    width: 130px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+form{
+    margin-left: 30px;
+}
+
+select{
+    width: 160px;
+    height: 40px;
+}
